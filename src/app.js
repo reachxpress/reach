@@ -14,24 +14,19 @@ export class App {
   }
 }
 
-export class
-Welcome
+export class Welcome
 {
   heading = 'Welcome to the Aurelia Navigation App!';
   firstName = 'John';
   lastName = 'Doe';
 
-  get
-  fullName()
+  get fullName()
   {
-    return `${this.firstName}
-    ${this.lastName}
-  `;
+    return `${this.firstName} ${this.lastName}`;
   }
 
   welcome()
   {
-    alert(`Welcome, ${this.fullName}!`)
-    ;
+    alert(`Welcome, ${this.fullName}!`);
   }
 }
